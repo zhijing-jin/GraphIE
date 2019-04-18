@@ -1,5 +1,26 @@
 # GraphIE
 
+## Get Started
+- Python>=3.6
+- [PyTorch 0.4.0](https://pytorch.org/) # install it according to your cuda version. 
+e.g. `conda install pytorch=0.4.0 torchvision cuda80 -c pytorch`
+
+### 1) Install packages
+```bash
+conda create -n new python=3.6
+conda activate new
+pip install -r requirements.txt
+```
+### 2) Download data
+```bash
+./download_data.sh
+```
+## Run
+```
+python examples/multi_runs_conll.py --gpu_id 0
+```
+
+
 ## Model Outputs
 ### Overview
 To ensure the files are correct, I did the following checks on `Apr 2, 2019`.
@@ -23,9 +44,7 @@ code/examples/eval/conll03eval.v2 < outputs/conll03_SeqIE/11141152r09_dev
 - In each output file, the format is `index \t word \t gold_tag \t predicted_tag`. The start of a document is signified by `1 -DOCSTART- O O`.
 - The dev output is saved in the last epoch in the training.
 - The test output is saved in the epoch with the highest F1 score on the dev data.
-
-## Code (FYI)
-To get a better understanding of how the outputs are saved, please refer to the main [code file](code/examples/NERCRF_conll.py).
+- To get a better understanding of how the outputs are saved, please refer to the main [code file](examples/NERCRF_conll.py).
 
 ## Appendix: Full experiment details
 ### conll03 - GraphIE
