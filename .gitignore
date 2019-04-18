@@ -175,3 +175,14 @@ fabric.properties
 .DS_Store
 */.DS_Store
 .idea
+
+
+# ignore large data files
+data/alphabets
+data/pretr
+data/run
+data/dset/03co/graph/
+
+
+
+
