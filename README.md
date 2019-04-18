@@ -1,16 +1,18 @@
 # GraphIE
 
 ## Get Started
+
+### 1) Install packages
 - Python>=3.6
 - [PyTorch 0.4.0](https://pytorch.org/) # install it according to your cuda version. 
 e.g. `conda install pytorch=0.4.0 torchvision cuda80 -c pytorch`
-
-### 1) Install packages
 ```bash
-conda create -n new python=3.6
-conda activate new
+conda create -n graphie_env python=3.6
+conda activate graphie_env
 pip install -r requirements.txt
+# install pytorch 0.4.0 in your own way
 ```
+
 ### 2) Download data
 ```bash
 ./download_data.sh
