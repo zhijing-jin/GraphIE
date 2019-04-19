@@ -3,11 +3,13 @@
 
 This repo contains the word-level GCN code and data of the paper:
 
-[GraphIE: A Graph-Based Framework for Information Extraction](). _Yujie Qian, Enrico Santus, Zhijing Jin, Jiang Guo, and Regina Barzilay._
+> [GraphIE: A Graph-Based Framework for Information Extraction](). _Yujie Qian, Enrico Santus, Zhijing Jin, Jiang Guo, and Regina Barzilay._
 
-This code is implemented by [Zhijing Jin](http://zhijing-jin.com/fantasy/about/). For any questions, please contact via [email](mailto:zhijing.jin@connect.hku.hk). For another part of the code, sentence-level GCN, please see this [github repo](https://github.com/thomas0809/GraphIE/tree/master/sentence-level).
+This code is implemented by [Zhijing Jin](http://zhijing-jin.com/fantasy/about/). The original framework is accreditted to [Di Jin](https://github.com/jind11).
 
-The original framework is accreditted to [Di Jin](https://github.com/jind11).
+For any questions, please contact her via [email](mailto:zhijing.jin@connect.hku.hk). (Another part of the code in the paper, i.e. sentence-level GCN is in this [github repo](https://github.com/thomas0809/GraphIE/tree/master/sentence-level).
+
+
 
 ## Get Started
 
